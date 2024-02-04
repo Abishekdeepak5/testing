@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim
+FROM openjdk
 WORKDIR /app
 COPY . /app
 RUN javac hello.java
